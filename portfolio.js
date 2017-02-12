@@ -15,11 +15,19 @@
 		 , name: '<p class="name">iT@der</p><img src="logo-itader.png">'
 		 , desc: 'iT@der es un producto de ISOTADER GRUPO para la gestión de la excelencia. Es una herramienta para la administración documental de cualquier sistema de gestión estandarizado (normas ISO ,OHSAS ,BRC, IFS, LOPD Y LSSICE).'
 		 , img: 'captura-itader.png'
-		 , tech: 'Notes/Domino Javascript HTML CSS'
+		 , tech: 'IBM Lotus Notes/Domino Javascript HTML CSS'
 		 , link: '<div class="link-text">Ficha de producto</div>'
 		 	+ '<a target="_blank" href="http://itader.isotader.es">http://itader.isotader.es</a>'		 
 		}		
-		, {date: '2004-presente'
+		/*, {date: '2004'
+		 , name: '<p class="name">ERP Serficoin</p><img src="logo-serficoin.png">'
+		 , desc: 'Un proyecto de ISOTADER GRUPO. Aplicación Web sobre Lotus Notes/Domino para Serficoin, empresa líder en tramitación y gestión de documentación bancaria. Completo ERP para todo el ciclo de vida de los expedientes tramitados.'
+		 , img: 'captura-serficoin.png'
+		 , tech: 'IBM Lotus Notes/Domino Javascript CSS'
+		 , link: '<div class="link-text">Sitio web de SERFICOIN<div>'
+		 	+ '<a target="_blank" href="http://www.serficoin.com">http://www.serficoin.com/</a>'		 
+		}*/
+		, {date: '2004'
 		 , name: '<p class="name">Bolsa de empleo ENAE</p><img src="logo-fuem.png">'
 		 , desc: 'Herramienta para ofertantes y demandantes de empleo.'
 		 , img: 'captura-empleo.png'
@@ -27,14 +35,6 @@
 		 , link: '<div class="link-text">Acceso al servicio de empleo<div>'
 		 	+ '<a target="_blank" href="http://empleo.enae.es">http://empleo.enae.es/</a>'		 
 		}
-		/*, {date: '2004-presente'
-		 , name: '<p class="name">Bolsa de empleo ENAE</p><img src="logo-fuem.png">'
-		 , desc: 'Herramienta para ofertantes y demandantes de empleo.'
-		 , img: 'captura-empleo.png'
-		 , tech: 'PHP MySQL Javascript CSS<br>Intercambio de datos con Notes/Domino'
-		 , link: '<div class="link-text">Acceso al servicio de empleo<div>'
-		 	+ '<a target="_blank" href="http://empleo.enae.es">http://empleo.enae.es/</a>'		 
-		}*/		
 	 ];
  	var personales = [
 		 {date: '2016'

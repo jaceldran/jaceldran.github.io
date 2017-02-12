@@ -1,0 +1,52 @@
+table.portfolio {
+	width: 100%;
+}
+
+.portfolio tr {
+	vertical-align: top;	
+}
+
+.portfolio .link-text  {
+	font-size: 85%;
+}
+
+.portfolio .tech {
+	font-size: 85%;
+	color: #cc4125;
+}
+
+.portfolio a  {
+	text-decoration: underline;
+}
+
+.portfolio .card {
+	padding-right: 15px;
+}
+
+.portfolio .card img {box-shadow: 0px 4px 16px rgba(0,0,0,.3);}
+
+.portfolio .name {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #cc4125;
+	color: #fff;
+	background-color: #555;
+	margin: 0 0 6px 0;
+	padding: 0 5px;
+	line-height: 2;
+	--border-bottom: 2px solid #cc4125;
+	border-radius: 2px;
+}
+
+td {
+	width: 50%;
+	padding:  0 0 15px 0;
+}
+td.img {
+	width: 45%;
+}
+
+td.img img {
+	width: 100%;
+	box-shadow: 0px 4px 16px rgba(0,0,0,.3);
+}

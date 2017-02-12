@@ -1,0 +1,7 @@
+table.education tr {
+	vertical-align: top;
+}
+.education td {
+	padding: 8px;
+}
+.education .date {}

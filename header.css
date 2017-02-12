@@ -4,6 +4,7 @@ header {
 	background-color: #555;
 	position: relative;
 	border-radius: 0;
+	height: 125px;
 }
 
 header .name {

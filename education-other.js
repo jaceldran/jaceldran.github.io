@@ -17,11 +17,7 @@
 	];
 
 	var r = [];
-<<<<<<< HEAD
 	r.push('<h2>Otros cursos</h2>');
-=======
-	r.push('<h2>Cursos</h2>');
->>>>>>> b2439f9926c40ad775257772cda3c894c886fad4
 	r.push('<table class="education">');
 	for (var i=0; i<data.length; i++) {
 		var item = data[i];

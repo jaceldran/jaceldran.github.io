@@ -12,8 +12,8 @@
 	//	, {date: 2002, position: 'Diseño con Freehand', location:'Formato Formación SL', url: ''}
 	//	, {date: 2002, position: 'Programación Flash MX Avanzado', location:'Crea Formación Multimedia ', url: ''}
 		, {date: 1995, position: 'Análisis y Control de la Gestión Empresarial', location:'ENAE Business School ', url: ''}
-		, {date: 1984, position: 'Técnico Superior Informática', location:'Instituto Politécnico de Cartagena ', url: ''}
-		, {date: 1982, position: 'COU & Selectividad', location:'Isaac Peral de Cartagena ', url: ''}
+		, {date: 1984, position: 'Técnico Superior Informática', location:'Instituto Politécnico de Cartagena', url: ''}		
+		, {date: 1982, position: 'Selectividad', location:'Isaac Peral de Cartagena ', url: ''}
 	];
 
 	var r = [];

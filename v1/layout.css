@@ -1,0 +1,106 @@
+
+/**
+ * layout
+ */
+
+@import  url("https://fonts.googleapis.com/css?family=Roboto|Alegreya+Sans+SC|Anton|Open+Sans|Prompt");
+
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: Roboto,Prompt,sans-serif;
+	font-size: medium;
+	color: inherit;
+	font-size: inherit;
+}
+
+acronym {
+	cursor: help;
+}
+
+body {
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+main .row {
+	display: flex;
+	justify-content: space-between;
+}
+main .row .col {
+	flex: 1 1 0;  
+	margin: 0 5px;
+}
+
+h2 {
+	padding: 6px 10px;
+	font-size: 115%;
+	background-color: #cc4125;
+	color: #fff;
+	display: inline-block;
+	margin: 10px 0;
+	border-radius: 2px;
+	font-weight: normal;
+	--text-transform: uppercase;
+}
+
+hr {
+  height: 0;
+  border: 1px dotted rgba(0, 0, 0, 0.3);
+  border-width: 1px 0 0 0;
+  margin: 10px 0; }
+
+p {
+	margin: .5em 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.box {
+	background-color: #fcf1ef;
+	padding: 15px;
+}
+
+.no-wrap {
+	white-space: nowrap;
+}
+
+.icon-brand {
+  background-image: url(http://cdn.zentric.es/img/favicon.ico);
+  background-repeat: no-repeat;
+  background-position: 0 50%; }
+  .icon-brand::before {
+    content: "";
+    width: 16px;
+    display: inline-block; }
+
+/* https://escss.blogspot.com/2012/05/estilos-css-para-imprimir-la-regla-page.html */
+@page {
+	size: auto;
+	margin: 0;
+}
+
+@media screen {
+	.page-break {
+      display:none; 
+	}	
+}
+
+@media print {
+	.no-print {
+		display: none !important;
+	}
+	.page-break {
+      display:block; 
+      page-break-before:always;
+	}
+
+}        

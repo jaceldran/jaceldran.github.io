@@ -5,6 +5,7 @@ header {
 	position: relative;
 	border-radius: 0;
 	height: 125px;
+	overflow: hidden;
 }
 
 header .name {

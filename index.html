@@ -16,25 +16,35 @@
 				left: 50%;
 				transform: translate(-50%, -50%);
 				z-index: 10;
-				width: 85%;
+				width: 100%;
+				max-width: 850px;
 			}
-			.card a {
-				display: block;
-				white-space: nowrap;
-				text-align: center;
-				font-size: large;
-				line-height: 4em;
-				background-color: #dda;
-				padding: 15px;
-				background-color: #ddd;
+			a.col {
 				background-color: #cc4125;
+				display: flex;				
+			}
+			a.col .text {
+				height: 50px;
+				line-height: 50px;
+				padding: 0 15px;
+				color: #fff;
+				font-family: open sans,montserrat;
+			}
+			a.col:hover .text {
+				color: #fff;
+				text-decoration: underline;
+			}
+			a.col .fa {
+				height: 50px;
+				line-height: 50px;
+				padding: 0 15px;
+				display: inline-block;
+				background-color: #555;
+				font-size: 130%;
 				color: #fff;
 			}
-			.card a .fa {
-				font-size: 120%;
-			}
-			.card a:hover {
-				background-color: #333;
+			a.col:hover .fa {
+				background-color: #000;
 			}
 		</style>
 	</head>
@@ -56,9 +66,28 @@
 
 			<div class="row modale">
 
+				<a title="Ver CV ONLINE" class="col" target="_blank" href="./v1/index.html">
+					<i class="fa fa-link"></i> 
+					<span class="text">Ver ONLINE</span>
+				</a>
+
+				<a title="Descargar CV RESUMEN" class="col" target="_blank" href="./cv-juan-angel-celdran-resumen.pdf">
+					<i class="fa fa-download"></i> 
+					<span class="text">CV Resumen</span>
+				</a>
+
+				<a title="Descargar CV DETALLADO" class="col" target="_blank" href="./cv-juan-angel-celdran-detalle.pdf">
+					<i class="fa fa-download"></i> 
+					<span class="text">CV Detallado</span>
+				</a>
+
+			</div>
+
+			<!--div class="row modale">
+
 				<div class="col card">
 					<a target="_blank" href="./v1/index.html">
-						<i class="fa fa-link fa-fw"></i> Ver CV Resumen online
+						<i class="fa fa-link fa-fw"></i> Ver CV Resumen ONLINE
 					</a>					
 				</div>
 
@@ -75,7 +104,7 @@
 					</a>
 				</div>
 
-			</div>
+			</div-->
 
 
 		</main>

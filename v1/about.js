@@ -1,6 +1,7 @@
 
 /**
  * about & contact
+ * functiona ok pero sin uso, los datos se han incluido en la página html.
  */
 
 

@@ -3,7 +3,7 @@
  * layout
  */
 
-@import  url("https://fonts.googleapis.com/css?family=Roboto|Alegreya+Sans+SC|Anton|Open+Sans|Prompt");
+@import  url("https://fonts.googleapis.com/css?family=Roboto|Anton|Open+Sans|Prompt");
 
 
 * {
@@ -47,7 +47,6 @@ h2 {
 	margin: 10px 0;
 	border-radius: 2px;
 	font-weight: normal;
-	--text-transform: uppercase;
 }
 
 hr {

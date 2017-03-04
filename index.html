@@ -10,6 +10,11 @@
 		<link rel="stylesheet" href="./css/layout.css">
 		<link rel="stylesheet" href="./css/header.css">
 		<style>
+
+			html {
+				background-color: #555;
+			}
+
 			.modale {
 				position: fixed;
 				top: 50%;
@@ -19,32 +24,48 @@
 				width: 100%;
 				max-width: 850px;
 			}
-			a.col {
+			.row {				
+				flex-wrap: wrap;
+				justify-content: space-around !important;
+			}
+			.row.modale > a.col {
+				flex: 0 1 auto; /* default */
+				width: 45%;
 				background-color: #cc4125;
-				display: flex;				
+				display: flex;
+				margin: 15px 0;
+				overflow: auto;
 			}
 			a.col .text {
 				height: 50px;
 				line-height: 50px;
 				padding: 0 15px;
 				color: #fff;
-				font-family: open sans,montserrat;
+				font-family: open sans, montserrat;
+				transition: 250ms
 			}
 			a.col:hover .text {
-				color: #fff;
-				text-decoration: underline;
+				color: #fff;				
+				transform: translateX(1em);
 			}
-			a.col .fa {
+			a.col .icon {
 				height: 50px;
 				line-height: 50px;
 				padding: 0 15px;
-				display: inline-block;
-				background-color: #555;
+				display: inline-block;				
 				font-size: 130%;
 				color: #fff;
+				background-color: #555;
+				background-color: #333;
 			}
-			a.col:hover .fa {
+			a.col:hover .icon {
 				background-color: #000;
+			}
+			.fa-link {
+				color: cadetblue !important;
+			}
+			.fa-download {
+				color: indianred !important;
 			}
 		</style>
 	</head>
@@ -54,58 +75,39 @@
 		<header>
 			<div>
 				<div class="name" id="header-name">Juan Ángel Celdrán</div>
-				<div class="position" id="header-position">Analista Programador Web</div>
+				<div class="position" id="header-position">Desarrollador Web</div>
 				<nav class="main no-print" id="header-nav"></nav>
 			</div>
 			<div class="photo">
 				<img src="./img/yo-brown.png">
-			</div>			
+			</div>
 		</header>
 
 		<main>
 
 			<div class="row modale">
 
-				<a title="Ver CV ONLINE" class="col" target="_blank" href="./v1/index.html">
-					<i class="fa fa-link"></i> 
-					<span class="text">Ver ONLINE</span>
+				<a title="Ver CV resumido online" class="col" target="_blank" href="./v1/index.html">
+					<i class="icon fa fa-link"></i> 
+					<span class="text">CV resumido online</span>
 				</a>
 
-				<a title="Descargar CV RESUMEN" class="col" target="_blank" href="./cv-juan-angel-celdran-resumen.pdf">
-					<i class="fa fa-download"></i> 
-					<span class="text">CV Resumen</span>
+				<a title="PDF CV resumido" class="col" target="_blank" href="./cv-juan-angel-celdran-resumen.pdf">
+					<i class="icon fa fa-download"></i> 
+					<span class="text">CV resumido</i>  </span>
 				</a>
 
-				<a title="Descargar CV DETALLADO" class="col" target="_blank" href="./cv-juan-angel-celdran-detalle.pdf">
-					<i class="fa fa-download"></i> 
-					<span class="text">CV Detallado</span>
+				<a title="PDF CV detallado & portfolio" class="col" target="_blank" href="./cv-juan-angel-celdran-detalle.pdf">
+					<i class="icon fa fa-download"></i> 
+					<span class="text">CV detallado & portfolio</span>
+				</a>
+
+				<a title="PDF solamente portfolio" class="col" target="_blank" href="./portfolio-juan-angel-celdran.pdf">
+					<i class="icon fa fa-download"></i> 
+					<span class="text">Portfolio</span>
 				</a>
 
 			</div>
-
-			<!--div class="row modale">
-
-				<div class="col card">
-					<a target="_blank" href="./v1/index.html">
-						<i class="fa fa-link fa-fw"></i> Ver CV Resumen ONLINE
-					</a>					
-				</div>
-
-				<div class="col card">
-					<a target="_blank" href="./cv-juan-angel-celdran-resumen.pdf">
-						<i class="fa fa-download fa-fw"></i> Descargar CV RESUMEN
-					</a>
-				</div>
-
-
-				<div class="col card">
-					<a target="_blank" href="./cv-juan-angel-celdran-detalle.pdf">
-						<i class="fa fa-download fa-fw"></i> Descargar CV DETALLADO
-					</a>
-				</div>
-
-			</div-->
-
 
 		</main>
 

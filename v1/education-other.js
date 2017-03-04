@@ -9,8 +9,9 @@
 		, {date: 2014, position: 'Desarrollo en HTML5, CSS Y Javascript de WebApps, incluyendo móviles FirefoxOS', location:'Universidad Politécnica de Madrid', url: ''}
 		, {date: 2014, position: 'Agilidad y Lean', location:'Universidad Rey Juan Carlos', url: ''}
 	//	, {date: 2004, position: 'Curso Superior de Publicidad', location:'ENAE Business School', url: ''}
+		, {date: 2005, position: 'IBM Certified Lotus Specialist', location:'IBM', url: ''}
 		, {date: 2002, position: 'Diseño con Freehand', location:'Formato Formación SL', url: ''}
-		, {date: 2002, position: 'Programación Flash MX Avanzado', location:'Crea Formación Multimedia ', url: ''}
+		//, {date: 2002, position: 'Programación Flash MX Avanzado', location:'Crea Formación Multimedia ', url: ''}
 	//	, {date: 1995, position: 'Análisis y Control de la Gestión Empresarial', location:'ENAE Business School ', url: ''}
 	//	, {date: 1984, position: 'Técnico Superior Informática', location:'Instituto Politécnico de Cartagena ', url: ''}
 	//	, {date: 1982, position: 'COU & Selectividad', location:'Isaac Peral de Cartagena ', url: ''}

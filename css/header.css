@@ -4,8 +4,7 @@ header {
 	background-color: #555;
 	position: relative;
 	border-radius: 0;
-	height: 125px;
-	overflow: hidden;
+	height: 125px;	
 }
 
 header .name {
@@ -25,11 +24,11 @@ header .position {
 	display: inline-block;
 	color: #fff;
 	background-color: #000;
-	padding: 10px 0;
+	/*padding: 10px 0;*/
+	padding: 10px;
 	text-align:center;
 	border-radius: 0px;
-	width: 230px;
-
+	/*width: 230px;*/
 }
 
 

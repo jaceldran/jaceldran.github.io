@@ -5,7 +5,7 @@
  	var clientes = [
 	 	{date: '2013-presente'
 		 , name: '<p class="name">Campus Virtual ENAE</p><img src="logo-enae.png">'
-		 , desc: 'Gestión contenidos, exámenes, evaluaciones y comunicaciones entre docentes, estudiantes y el personal de ENAE.'
+		 , desc: 'Gestión de oferta formativa, expedientes de alumnos, contenidos, exámenes, evaluaciones y comunicaciones entre docentes, estudiantes y el personal de ENAE.'
 		 , img: 'captura-cvirtual.png'
 		 , tech: 'PHP MySQL Javascript CSS<br>Intercambio de datos con Notes/Domino'
 		 , link: '<div class="link-text">Sitio Web de ENAE Business School<div>'
@@ -42,7 +42,9 @@
 		 , desc: 'Una forma diferente para leer frases célebres, una puesta en escena colorida con suaves transiciones y bellas tipografías. Porque hay palabras que valen más que una imagen.'
 		 , img: 'captura-color-quotes.png'
 		 , tech: 'PHP MySQL Javascript HTML CSS'
-		 , link: '<a target="_blank" href="http://colorquot.es">http://colorquot.es</a>'		 
+		 , link: 'Web: <a target="_blank" href="http://colorquot.es">http://colorquot.es</a>'
+		 + '<br>Twitter: <a target="_blank" href="https://twitter.com/colorquote">@colorquote</a>'
+		 + '<br>Facebook: <a target="_blank" href="https://www.facebook.com/COLOR-QUOTES-2760130594188980">Página COLOR QUOTES</a>'		 
 		}
 		, {date: '2013'
 		 , name: '<p class="name">ABACOM</p><img src="logo-abacom.png">'

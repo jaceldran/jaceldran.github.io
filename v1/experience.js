@@ -4,7 +4,7 @@
  */
 
 	var data = [
-		{date: 'desde 2009', position: 'Freelance', location: 'Con la denominación SONIMATEC', url: 'http://sonimatec.com'}
+		{date: 'desde 2009', position: 'Profesional independiente', location: 'Con la denominación SONIMATEC', url: 'http://sonimatec.com'}
 		, {date: 2004, position: 'Analista Programador Web', location:'ISOTADER GRUPO', url: 'http://www.isotader.es'}
 		, {date: 2000, position: 'Desarrollador Web', location:'ENAE Business School', url: 'http://enae.es'}
 		, {date: 1999, position: 'Programador Notes/Domino y Web', location:'Fundación Universidad Empresa Murcia', url: 'http://fuem.es'}

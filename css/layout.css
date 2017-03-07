@@ -99,9 +99,14 @@ a {
 	.no-print {
 		display: none !important;
 	}
+
 	.page-break {
       display:block; 
       page-break-before:always;
+	}
+
+	main .row .col {
+		margin: 0 10px;
 	}
 
 }        

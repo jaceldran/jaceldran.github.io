@@ -42,7 +42,7 @@
 		 , desc: 'Una forma diferente para leer frases célebres, una puesta en escena colorida con suaves transiciones y bellas tipografías. Publicación diaria programada en Twitter y Facebook. "Palabras que valen más que una imagen".'
 		 , img: 'captura-color-quotes.png'
 		 , tech: 'PHP MySQL Javascript HTML CSS'
-		 , link: 'Web: <a target="_blank" href="http://colorquot.es">http://colorquot.es</a>'
+		 , link: 'Web: <a target="_blank" href="http://colorquotes.zentric.es">http://colorquotes.zentric.es</a>'
 		 + '<br>Twitter: <a target="_blank" href="https://twitter.com/colorquote">@colorquote</a>'
 		 + '<br>Facebook: <a target="_blank" href="https://www.facebook.com/COLOR-QUOTES-2760130594188980">Página COLOR QUOTES</a>'		 
 		}

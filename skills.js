@@ -39,7 +39,8 @@ var other = [
 	"Laravel",
 	"CodeIgniter",
 	"OOP",
-	"MVC"
+	"MVC",
+	"Websockets"
 ];
 other.sort();
 other.unshift("Capacidad de aprendizaje");

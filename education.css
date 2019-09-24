@@ -2,8 +2,5 @@ table.education tr {
 	vertical-align: top;
 }
 .education td {
-	padding: 8px;
-}
-#education-other .position {
-	/* font-weight: 600; */
+	padding: 4px 8px;
 }

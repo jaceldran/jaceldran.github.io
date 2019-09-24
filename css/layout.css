@@ -89,13 +89,11 @@ main {
 	grid-template-columns: auto auto;
 }
 
-main .col {
-}
-
 /* https://escss.blogspot.com/2012/05/estilos-css-para-imprimir-la-regla-page.html */
 @page {
 	size: A4;
 	margin: 0;
+	padding: 0;
 	overflow: hidden;
 }
 

@@ -1,0 +1,65 @@
+.timeline .date {
+	font-weight: bold;
+}
+.position {
+	/* font-weight: 600; */
+}
+.location {
+	font-size: 90%;
+	color: #999;
+}
+.location:before {
+	content: "En ";
+}
+.url a {
+	font-size: 90%;
+	color: #999;
+}
+
+/**
+ * dots
+ */
+
+.dot-container {
+	width: 60px;
+}
+.dot {
+	display: block;
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 80px;
+	width: 6px;
+	margin: 0 auto;
+	background-color: #555;
+}
+.dot:before {
+	content: "";
+	display: block;
+	position: absolute;
+	z-index: -1;
+	transform: translateX(-15px) translateY(21px);
+	border-radius: 50%;
+	border: 6px solid #f7d6ce;
+	height: 25px;
+	width: 25px;
+}
+.dot:after {
+	content: "";
+	display: block;
+	position: absolute;
+	transform: translateX(-7px) translateY(30px);
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+	background-color: #555;
+	--background-color: #cc4125;
+}
+/*.dot, .dot:after {
+		background-color: #555;
+	}*/
+
+table tr:first-child .dot:after {
+	--background-color: #c69;
+	--transform: translateX(-6px) translateY(-2px);
+}

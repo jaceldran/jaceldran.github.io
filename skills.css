@@ -1,0 +1,64 @@
+/**
+ * scores
+ */
+
+#skills {
+	width: 600px;
+}
+
+#skills-other {
+	background-color: #eee;
+	background-color: #fcf1ef;
+	padding: 5px 10px 10px 60px;
+	position: relative;
+}
+#skills-other:before {
+	content: "Otros";
+	display: inline-block;
+	background-color: #555;
+	color: #fff;
+	padding: 5px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 2px;
+}
+
+#skills-list .tag {
+	display: inline-block;
+	font-size: 100%;
+	border: 1px solid #eee;
+	border-radius: 3px;
+	color: #666;
+	margin: 2px;
+	padding: 0 0.5rem;
+	line-height: 2;
+}
+
+.score-container {
+	width: 100%;
+	height: 28px;
+	position: relative;
+	margin: 0 0 10px 0;
+	background-color: #eee;
+	background-color: #fcf1ef;
+	border-radius: 2px;
+}
+
+.score-container > .skill {
+	position: absolute;
+	top: 0;
+	left: 0.5rem;
+	color: #fff;
+	line-height: 28px;
+	font-size: inherit;
+}
+
+.score-container > .score {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 28px;
+	background-color: #555;
+	border-radius: 2px;
+}

@@ -1,0 +1,9 @@
+table.education tr {
+	vertical-align: top;
+}
+.education td {
+	padding: 8px;
+}
+#education-other .position {
+	/* font-weight: 600; */
+}

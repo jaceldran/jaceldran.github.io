@@ -1,0 +1,146 @@
+<!doctype HTML>
+<html lang="es">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Juan Ángel Celdrán</title>
+		<link rel="icon" href="img/sonimatec.ico">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="./css/layout.css">
+		<link rel="stylesheet" href="./css/header.css">
+		<style>
+
+			html {
+				background-color: #555;
+			}
+
+			.modale {
+				position: fixed;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				z-index: 10;
+				width: 100%;
+				max-width: 870px;
+			}
+			.row {
+				flex-wrap: wrap;
+				justify-content: space-around !important;
+			}
+			.row.modale > a.col {
+				flex: 0 1 auto; /* default */
+				width: 45%;
+				background-color: #cc4125;
+				background-color: indianred;
+				display: flex;
+				margin: 15px 0;
+				overflow: auto;
+			}
+			a.col .text {
+				height: 70px;
+				line-height: 70px;
+				padding: 0 15px;
+				color: #fff;
+				font-family: open sans, montserrat;
+				transition: 250ms
+			}
+			a.col:hover .text {
+				color: #fff;
+				transform: translateX(1em);
+			}
+			a.col .icon {
+				height: 70px;
+				line-height: 70px;
+				padding: 0 15px;
+				display: inline-block;
+				font-size: 130%;
+				color: #fff;
+				background-color: #555;
+				background-color: #333;
+
+				width: 70px;
+				font-size: 150%;
+				text-align: center;
+			}
+			a.col:hover .icon {
+				background-color: #000;
+			}
+			.fa-link {
+				color: cadetblue !important;
+			}
+			.fa-download {
+				color: indianred !important;
+			}
+
+			footer {
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+			}
+			.copyright {
+				padding: 15px 20px;;
+				color: #ccc;
+				float: right;
+			}
+
+		</style>
+	</head>
+
+	<body>
+
+		<header>
+			<div>
+				<div class="name" id="header-name">Juan Ángel Celdrán</div>
+				<div class="position" id="header-position">Desarrollador Web</div>
+				<nav class="main no-print" id="header-nav"></nav>
+			</div>
+			<div class="photo">
+				<img src="./img/yo-brown.png">
+			</div>
+		</header>
+
+		<main>
+
+			<div class="row modale">
+
+				<a title="Ver CV resumido online" class="col" target="_blank" href="./v1/index.html">
+					<i class="icon fa fa-link"></i>
+					<span class="text">CV resumido online</span>
+				</a>
+
+				<a title="PDF CV resumido" class="col" target="_blank" href="./cv-juan-angel-celdran-resumen.pdf">
+					<i class="icon fa fa-download"></i>
+					<span class="text">CV resumido</i>  </span>
+				</a>
+
+				<a title="PDF CV detallado & portfolio" class="col" target="_blank" href="./cv-juan-angel-celdran-detalle.pdf">
+					<i class="icon fa fa-download"></i>
+					<span class="text">CV detallado & portfolio</span>
+				</a>
+
+				<a title="PDF solamente portfolio" class="col" target="_blank" href="./portfolio-juan-angel-celdran.pdf">
+					<i class="icon fa fa-download"></i>
+					<span class="text">Portfolio</span>
+				</a>
+
+			</div>
+
+		</main>
+
+		<footer>
+
+			<span class="copyright">
+				<a href="http://zentric.es" target="_blank">
+				<img src="http://zentric.es/img/sonimatec.ico">sonimatec</a>
+			</span>
+
+		</footer>
+
+		<script src="./js/app.js"></script>
+
+	</body>
+
+</html>

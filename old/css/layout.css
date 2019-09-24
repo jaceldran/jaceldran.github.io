@@ -87,18 +87,14 @@ a {
 main {
 	display: grid;
 	width: 100%;
-	height: 90vh;
+	height: 100vh;
 	grid-template-columns: auto auto;
-}
-
-main .col {
 }
 
 /* https://escss.blogspot.com/2012/05/estilos-css-para-imprimir-la-regla-page.html */
 @page {
-	size: A4;
+	size: auto;
 	margin: 0;
-	overflow: hidden;
 }
 
 @media screen {

@@ -41,7 +41,7 @@ var data = [
 ];
 
 var r = [];
-r.push("<h2>Formación</h2>");
+r.push("<h2>Formación y otros cursos</h2>");
 r.push('<table class="education">');
 for (var i = 0; i < data.length; i++) {
 	var item = data[i];

@@ -43,21 +43,41 @@ var data = [
 		position: "IBM Certified Lotus Specialist",
 		location: "IBM",
 		url: ""
-	}
+	},
 	// {
 	// 	date: 2002,
 	// 	position: "Diseño con Freehand",
 	// 	location: "Formato Formación SL",
 	// 	url: ""
 	// }
+	{
+		date: 2004,
+		position: "Curso Superior de Publicidad",
+		location: "ENAE Business School",
+		url: ""
+	},
+	//	, {date: 2002, position: 'Diseño con Freehand', location:'Formato Formación SL', url: ''}
+	//	, {date: 2002, position: 'Programación Flash MX Avanzado', location:'Crea Formación Multimedia ', url: ''}
+	// {
+	// 	date: 1995,
+	// 	position: "Análisis y Control de la Gestión Empresarial",
+	// 	location: "ENAE Business School ",
+	// 	url: ""
+	// },
 	//, {date: 2002, position: 'Programación Flash MX Avanzado', location:'Crea Formación Multimedia ', url: ''}
 	//	, {date: 1995, position: 'Análisis y Control de la Gestión Empresarial', location:'ENAE Business School ', url: ''}
 	//	, {date: 1984, position: 'Técnico Superior Informática', location:'Instituto Politécnico de Cartagena ', url: ''}
 	//	, {date: 1982, position: 'COU & Selectividad', location:'Isaac Peral de Cartagena ', url: ''}
+	{
+		date: 1984,
+		position: "Técnico Superior Informática",
+		location: "Instituto Politécnico de Cartagena",
+		url: ""
+	}
 ];
 
 var r = [];
-r.push("<h2>Otros cursos</h2>");
+r.push("<h2>Formación y otros</h2>");
 r.push('<table class="education">');
 for (var i = 0; i < data.length; i++) {
 	var item = data[i];

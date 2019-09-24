@@ -77,7 +77,7 @@ var data = [
 ];
 
 var r = [];
-r.push("<h2>Formación y otros</h2>");
+r.push("<h2>Formación y cursos</h2>");
 r.push('<table class="education">');
 for (var i = 0; i < data.length; i++) {
 	var item = data[i];

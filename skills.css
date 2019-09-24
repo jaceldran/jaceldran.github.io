@@ -2,10 +2,6 @@
  * scores
  */
 
-#skills {
-	width: 600px;
-}
-
 #skills-other {
 	background-color: #eee;
 	background-color: #fcf1ef;
@@ -24,15 +20,20 @@
 	border-radius: 2px;
 }
 
+#skills-list {
+	width: 100%;
+}
+
 #skills-list .tag {
 	display: inline-block;
-	font-size: 100%;
-	border: 1px solid #eee;
+	font-size: 90%;
+	border: 1px solid #ccc;
 	border-radius: 3px;
-	color: #666;
+	/* color: #666; */
 	margin: 2px;
 	padding: 0 0.5rem;
 	line-height: 2;
+	/* text-transform: uppercase; */
 }
 
 .score-container {

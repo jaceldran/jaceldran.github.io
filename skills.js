@@ -8,6 +8,8 @@ var data = [
 ];
 
 var other = [
+	" Autodidacta",
+	" Capacidad de aprendizaje",
 	"Javascript",
 	"ECMAScript 6",
 	"HTML5",
@@ -22,15 +24,14 @@ var other = [
 	"Google Maps API",
 	"Cordova",
 	"OnsenUI",
-	"MySQL",
 	"MongoDB",
-	"IBM Lotus Notes/Domino",
+	"Lotus Notes/Domino",
 	"Composer",
 	"GIT",
-	"Diseño web adaptable",
-	"Accesibilidad web",
-	"Gestión documental",
-	"jQuery",
+	"Diseño Web Adaptable",
+	"Accesibilidad Web",
+	//"Gestión documental",
+	"JQuery",
 	"PHPUnit",
 	"API/REST",
 	"SASS",
@@ -43,8 +44,8 @@ var other = [
 	"Websockets"
 ];
 other.sort();
-other.unshift("Capacidad de aprendizaje");
-other.unshift("Autodidacta");
+//other.unshift("Capacidad de aprendizaje");
+//other.unshift("Autodidacta");
 
 // skills
 var r = [];

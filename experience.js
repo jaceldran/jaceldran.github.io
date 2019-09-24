@@ -10,19 +10,19 @@ var data = [
 	// 	url: "http://zentric.es"
 	// },
 	{
-		date: "desde mar-2019",
+		date: "2019",
 		position: "Desarrollador Frontend",
 		location: "Proasistech SL",
 		url: "http://proasistech.com"
 	},
 	{
-		date: "desde may-2018",
+		date: "2018",
 		position: "Programador Web",
 		location: "OhMycode",
 		url: "http://ohmycode.cat"
 	},
 	{
-		date: "desde  2004",
+		date: "2004",
 		position: "Analista Programador Web",
 		location: "ISOTADER GRUPO",
 		url: "http://www.isotader.es"
@@ -34,7 +34,7 @@ var data = [
 	// 	url: "http://enae.es"
 	// },
 	{
-		date: "desde 1999",
+		date: "1999",
 		position: "Programador Notes/Domino y Web",
 		//position: "Centro de Servicios Multimedia",
 		location: "Fundación Universidad Empresa Murcia",
@@ -48,7 +48,7 @@ var r = [];
 r.push(`
 	<h2>Experiencia</h2>
 	<p>Profesional independiente desde 2009 (<a href="http://zentric.es">http://zentric.es</a>). </p>
-	<p>Colaboraciones activas:</p>
+	<p>Colaboraciones abiertas:</p>
 `);
 r.push('<table class="experience">');
 for (var i = 0; i < data.length; i++) {
